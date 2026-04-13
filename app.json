@@ -39,16 +39,6 @@
             "backgroundColor": "#000000"
           }
         }
-      ],
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/WorkSans-Black.ttf",
-            "./assets/fonts/WorkSans-Light.ttf",
-            "./assets/fonts/WorkSans-Medium.ttf"
-          ]
-        }
       ]
     ],
     "experiments": {

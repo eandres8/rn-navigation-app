@@ -8,9 +8,9 @@ SplashScreen.preventAutoHideAsync();
 
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
-    // 'WorkSans-Black': require('../assets/fonts/WorkSans-Black.ttf'),
-    // 'WorkSans-Light': require('../assets/fonts/WorkSans-Light.ttf'),
-    // 'WorkSans-Medium': require('../assets/fonts/WorkSans-Medium.ttf'),
+    'WorkSans-Black': require('../assets/fonts/WorkSans-Black.ttf'),
+    'WorkSans-Light': require('../assets/fonts/WorkSans-Light.ttf'),
+    'WorkSans-Medium': require('../assets/fonts/WorkSans-Medium.ttf'),
   });
 
   useEffect(() => {
@@ -23,9 +23,7 @@ const RootLayout = () => {
     return null;
   }
 
-  return (
-    <Slot />
-  )
+  return <Slot />;
 }
 
 export default RootLayout;
