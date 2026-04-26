@@ -23,7 +23,9 @@ const RootLayout = () => {
     return null;
   }
 
-  return <Slot />;
+  return (
+    <Slot />
+  );
 }
 
 export default RootLayout;
